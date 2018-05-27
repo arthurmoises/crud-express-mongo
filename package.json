@@ -1,0 +1,24 @@
+{
+  "name": "estoque",
+  "version": "0.0.1",
+  "description": "Para gerenciar estoque em distribuidora de bebidas",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "estoque",
+    "bebidas"
+  ],
+  "author": "Arthur",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongodb": "^3.1.0-beta4",
+    "body-parser": "^1.18.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  }
+}
